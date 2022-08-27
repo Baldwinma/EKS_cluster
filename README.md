@@ -2,7 +2,7 @@
 
 This is an eks cluster created using terraform
 
--The Terraform Configuration has different modules to help macke this reusable in different environments such as DEV, PROD, STAGING
+-The Terraform Configuration has different modules to help make this reusable in different environments such as DEV, PROD, STAGING
 
 -For simplicity Authentication can be done from the command line using the 
     aws configure command 
@@ -11,7 +11,6 @@ This is an eks cluster created using terraform
 TO DO AFTER PROVISIONING
 
 PULL DOWN KUBECONFIG FILE USING FOLLOWING COMMAND
-
 # aws eks --region us-east-1 update-kubeconfig --name eks --profile default
 
 To Ensure you have adequate connection
