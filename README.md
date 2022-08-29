@@ -7,6 +7,13 @@ This is an eks cluster created using terraform
 -For simplicity Authentication can be done from the command line using the 
     aws configure command 
     You would need AWS Access Key ID, AWS Secret Access Key, Default region name, & Default output format
+    
+TERRAFORM COMMANDS TO RUN 
+
+# terraform init
+# terraform validate
+# terraform plan
+# terraform apply
 
 TO DO AFTER PROVISIONING
 
