@@ -22,5 +22,8 @@ Use this path to ensure spin up deployment of docker image
 Get pods running in K8S
 # kubectl get pods -n kube-system
 
+Get services running in K8S
+# kubectl get service -n kube-system
+
 Access application
-# curl <external ip from service file>
+# curl <external ip of load balancer>
